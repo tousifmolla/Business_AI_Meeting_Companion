@@ -1,0 +1,14 @@
+@'
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+audio/*
+!audio/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.log
+'@ | Set-Content -Encoding utf8 .gitignore

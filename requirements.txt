@@ -1,0 +1,6 @@
+openai-whisper
+gradio>=5.0,<7
+requests>=2.31
+python-dotenv>=1.0
+langchain-ibm>=1.0
+ibm-watsonx-ai>=1.3
